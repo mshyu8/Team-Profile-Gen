@@ -1,6 +1,5 @@
 const createManager = function(manager) {
-    return 
-    `
+    return  `
     <div class="card d-inline-flex" style="width: 18rem;">
         <div class="card-body">
              <h5 class="card-title">${manager.name}</h5>
@@ -19,8 +18,7 @@ const createManager = function(manager) {
 }
 
 const createEngineer = function(engineer) {
-    return 
-    `
+    return `
     <div class="card d-inline-flex" style="width: 18rem;">
     <div class="card-body">
          <h5 class="card-title">${engineer.name}</h5>
@@ -39,8 +37,7 @@ const createEngineer = function(engineer) {
 }
 
 const createIntern = function(intern) {
-    return
-    `
+    return `
     <div class="card d-inline-flex" style="width: 18rem;">
         <div class="card-body">
              <h5 class="card-title">${intern.name}</h5>

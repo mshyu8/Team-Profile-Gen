@@ -3,6 +3,7 @@ const Engineer = require("./lib/engineer");
 const Intern = require("./lib/intern");
 const Manager = require("./lib/manager");
 const inquirer = require('inquirer');
+const htmlTemplate = require('./src/htmltemplate');
 const fs = require('fs');
 const createHtml = require("./src/htmltemplate");
 const employeeList = [];
