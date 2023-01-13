@@ -5,11 +5,11 @@ const createManager = function(manager) {
              <h5 class="card-title">${manager.name}</h5>
             </div>
     <ul class="list-group list-group-flush">
-      <li class="list-group-item">${manager.id}</li>
-      <li class="list-group-item">${manager.position}</li>
+      <li class="list-group-item">Manager</li>
+      <li class="list-group-item">ID: ${manager.id}</li>
+      <li class="list-group-item">Office Number: ${manager.officeNumber}</li>
     </ul>
     <div class="card-body">
-      <a href="#" class="card-link">${manager.officeNumber}</a>
       <a href="mailto:${manager.email}" class="card-link">${manager.email}</a>
     </div>
   </div>
@@ -24,8 +24,8 @@ const createEngineer = function(engineer) {
          <h5 class="card-title">${engineer.name}</h5>
         </div>
     <ul class="list-group list-group-flush">
-  <li class="list-group-item">${engineer.id}</li>
-  <li class="list-group-item">${engineer.position}</li>
+    <li class="list-group-item">Engineer</li>
+  <li class="list-group-item">ID: ${engineer.id}</li>
     </ul>
     <div class="card-body">
   <a href="mailto:${engineer.gitHub}" class="card-link">${engineer.gitHub}</a>
@@ -43,11 +43,11 @@ const createIntern = function(intern) {
              <h5 class="card-title">${intern.name}</h5>
             </div>
     <ul class="list-group list-group-flush">
-      <li class="list-group-item">${intern.id}</li>
-      <li class="list-group-item">${intern.position}</li>
+    <li class="list-group-item">Intern</li>
+      <li class="list-group-item">ID: ${intern.id}</li>
     </ul>
     <div class="card-body">
-      <a href="#" class="card-link">${intern.school}</a>
+      <a href="#" class="card-link">Attends: ${intern.school}</a>
       <a href="mailto:${intern.email}" class="card-link">${intern.email}</a>
     </div>
   </div>
