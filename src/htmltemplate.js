@@ -10,7 +10,7 @@ const createManager = function(manager) {
       <li class="list-group-item">Office Number: ${manager.officeNumber}</li>
     </ul>
     <div class="card-body">
-      <a href="mailto:${manager.email}" class="card-link">${manager.email}</a>
+      <a href="mailto:${manager.email}" class="card-link">Email: ${manager.email}</a>
     </div>
   </div>
         
@@ -28,8 +28,8 @@ const createEngineer = function(engineer) {
   <li class="list-group-item">ID: ${engineer.id}</li>
     </ul>
     <div class="card-body">
-  <a href="mailto:${engineer.gitHub}" class="card-link">${engineer.gitHub}</a>
-  <a href="mailto:${engineer.email}" class="card-link">${engineer.email}</a>
+  <a href="mailto:${engineer.github}" class="card-link">Github: ${engineer.github}</a>
+  <a href="mailto:${engineer.email}" class="card-link">Email: ${engineer.email}</a>
 </div>
 </div>
 
@@ -48,7 +48,7 @@ const createIntern = function(intern) {
     </ul>
     <div class="card-body">
       <a href="#" class="card-link">Attends: ${intern.school}</a>
-      <a href="mailto:${intern.email}" class="card-link">${intern.email}</a>
+      <a href="mailto:${intern.email}" class="card-link">Email: ${intern.email}</a>
     </div>
   </div>
     
