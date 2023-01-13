@@ -13,7 +13,7 @@ N/A
 
 Type 'node index.js' into the command line and answer the following prompts and filling out your team. Afterwards, open the index.html in the browser.
 
-<img src="../src/Screenshot%202023-01-13 035334.png">
+<img src="../img/Screenshot%202023-01-13 035334.png">
 
 ## Credits 
 
