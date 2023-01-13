@@ -19,7 +19,7 @@ const createManager = function(manager) {
 
 const createEngineer = function(engineer) {
     return `
-    <div class="card d-inline-flex" style="width: 18rem;">
+    <div class="card d-inline-flex margins" style="width: 18rem;">
     <div class="card-body">
          <h5 class="card-title">${engineer.name}</h5>
         </div>
@@ -38,7 +38,7 @@ const createEngineer = function(engineer) {
 
 const createIntern = function(intern) {
     return `
-    <div class="card d-inline-flex" style="width: 18rem;">
+    <div class="card d-inline-flex margins" style="width: 18rem;">
         <div class="card-body">
              <h5 class="card-title">${intern.name}</h5>
             </div>
